@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+
 }
 body {
   margin: 0;
@@ -23,6 +24,7 @@ body {
   position: absolute;
   position: sticky;
   text-align: right;
+
 }
 
 #webchat[watermark="true"] .webchat__scrollToEndButton {
@@ -30,4 +32,74 @@ body {
   left: 50%;
   right: unset;
   transform: translate(-50%, 0);
+
+}
+
+
+label.ac-textBlock {
+text-align: right !important;
+}
+
+.webchat__stackedLayout--fromUser .webchat__bubble__content{
+  border-radius: 10px;
+  background-color: rgb(60, 255, 24) !important;
+  border: 1px solid #2cc510 !important;
+  color: black;
+}
+
+.webchat__bubble__content{
+  background-color: rgb(227, 234, 239) !important;
+  border-radius: 10px !important;
+  border: 1px solid #d9e0e4 !important;
+  color: white;
+  margin: 0 10px;
+}
+
+.webchat__stackedLayout--fromUser .webchat__stackedLayout__avatar {
+  display: none;
+}
+
+.webchat__stackedLayout__content .css-1s8geyi {
+  display: none;
+}
+
+.ac-pushButton > div {
+  white-space: pre-wrap !important;
+  text-overflow: unset !important;
+}
+
+div.css-y1c0xs {
+  scroll-behavior: smooth
+}
+
+.ac-input p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  white-space: pre-wrap;
+  overflow: unset;
+}
+
+
+input[type="checkbox" i]:checked + * + *{
+  color: #00589d !important;
+  background-color: white;
+  font-weight: bold !important;
+
+}
+.ac-input input {
+  width: 1rem;
+  height: 1.2rem;
+  margin: 0.3em !important;
+
+
+}
+button {
+  cursor: pointer;
+}
+
+ 
+
+button:hover {
+  background-color: #0071ca !important;
+  color: white !important;
 }
