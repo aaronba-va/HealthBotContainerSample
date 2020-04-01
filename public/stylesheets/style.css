@@ -42,8 +42,8 @@ text-align: right !important;
 
 .webchat__stackedLayout--fromUser .webchat__bubble__content{
   border-radius: 10px;
-  background-color: rgb(60, 255, 24) !important;
-  border: 1px solid #2cc510 !important;
+  background-color: white !important;
+  border: 1px solid rgb(217, 224, 228) !important;
   color: black;
 }
 
