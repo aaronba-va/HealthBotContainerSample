@@ -109,7 +109,7 @@ function initBotConversation() {
                             // Use the following activity to proactively invoke a bot scenario
                             
                             triggeredScenario: {
-                                trigger: "va_menu_hybrid",
+                                trigger: "va_menu_decision_tree",
                                
                             }
                             
